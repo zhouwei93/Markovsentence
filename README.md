@@ -1,30 +1,12 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+welcoome to view this page!
+ here are some reference to run the program.
+ this project is a minesweeper game.The goal is to fullfill a function which consumes three arguments width height number_of_mines and generates a Minesweeper board internally. The board is a rectangle with a cover over each square. It will display this board to the user and prompt for a coordinate where they predict that no mine exists (format: x-coord y-coord 0-indexed). If they struck a mine then they lose .
+ first, create a 99 field indicating the game field. Secondly, set all the field with -1 indicating field that had not been clicked. Then generates random number and set mines where number is 9. Then calaulate number of mine around a coordinate being clicked and print. It calculates the number of mines and when the user click all the coordinate without mine, the user wins. If user click a blank field
 
+To get you started with C/C++,use the following sentence to complier:
 
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started with C/C++, we have created some small hello world
-applications and a Makefile.
 
 Have a look at the files, and use the terminal to build them:
 
-    $ make
-    $ ./hello-c-world
-    $ ./hello-cpp-world
-
-We're sure you can take it from there. Go ahead and edit the code, 
-or add some new files. It's all up to you! 
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+    g++ -o sweep minesweeper.cpp' and then './sweep
+ 
