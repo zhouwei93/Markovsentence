@@ -1,7 +1,7 @@
 welcoome to view this page!
 -----------------------------------------------------------------------------------------------
 
-This project is for minesweeper game. 
+This project is for minesweeper game.  
 Firstly, I create a 9x9 field indicating the game field. 
 Secondly I set all the field with -1 indicating field that had not been clicked.
 Then I generates random number and set mines where number is 9. 
