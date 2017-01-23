@@ -1,6 +1,0 @@
-{
-  "name": "Markovsentence",
-  "tagline": "here is some information about markovsentence",
-  "body": "Markovian-tweets,consume a text file with sentences and produce a tweet  with the style of the input text.  the base level is Markov Sentence Generation from the sample text, and we can generate the tweet in someone's style.\r\n\r\n\r\n\r\n\r\n then we can generate the tweet like this :\r\n\r\nThe right of Iraqis to educate their children in their mother tongue, such as the Council of Represent\r\natives, the Council of Representatives, the Council of Representatives, the Council of Representatives, the Co\r\nuncil of Representatives, the Council of Representatives, the Council of Representatives, the Council of Repre\r\nsentatives, the Council of Representatives, the Council of Representatives, the Council of Ministers, courts, \r\nand official conferences, in either of the term official language if the majority of its population so decide \r\n",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
