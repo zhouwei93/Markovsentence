@@ -1,25 +1,25 @@
 welcoome to view this page!
 -----------------------------------------------------------------------------------------------
+# welcome to markovsentence project!
 
-This project is for minesweeper game.  
-Firstly, I create a 9x9 field indicating the game field. 
-Secondly I set all the field with -1 indicating field that had not been clicked.
-Then I generates random number and set mines where number is 9. 
-Then calaulate number of mine around a coordinate being clicked and print.
-It calculates the number of mines and when the user click all the coordinate without mine, the user wins.
-If user click a blank field, it will enlarge the field with 3x3 field in center of blank coordinate.
-Function start() is to stimulate the game if the coordinate has not been click, then return the function itself,
-else calculate the numbers of mines around the coordinate.
-Function print()is to show the layout 
-Function check(), whose type is bool is to check if the user had click all the field without mines.
-I generate rand number with seed(time(0)) and lay mines in main() function.
+Some algorithms and introductions about my code.
 
-#How to use it.
+1. create a .txt document to save the origin content of sentence. 
+
+2. define and use cin to input two prefix, this is the Markov Sentence prefix.
+
+3. use two prefixs to search the content in the .txt, then if find out the word marked with these two prefixs(follow to these two words),
+ this word will define as postfix. If marked with several words, use the random one as postfix.
+
+4. the sentence move, save the prefix 2 to the position of prefix 1, abandon the previous prefix 1, then save the postfix to the position of prefix 2.
+
+5.  the sentence move away, until encounter a dot. The whole sentence has created.
+
+# How to use it.
 ------------------------------------------------------------------------------------------------
-you can compile with 'g++ -o sweep minesweeper.cpp' and then './sweep'
+ compile with 'g++ -o sweep minesweeper.cpp' and then './sweep'
 
 To get you started with C/C++,use the following sentence to complier:
-
 
 Have a look at the files, and use the terminal to build them:
 
