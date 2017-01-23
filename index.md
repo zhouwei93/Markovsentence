@@ -13,6 +13,7 @@ Markovian-tweets,consume a text file with sentences and produce a tweet with the
 4. After input words, the code will generate a sentence automaticlly in the original sentence's style.
 
 following is the original sentence:
+
  After one year from the ratification of this article the manufacture, sale,
  
 or transportation of intoxicating liquors within, the importation thereof into,
@@ -21,9 +22,13 @@ or the exportation thereof from the United States and all territory subject to
 
 the jurisdiction thereof for beverage purposes is hereby prohibited.
 
-input: one year
+input: 
 
-output:one year from the United States and all territory subject to the Constitution by the Congress.
+one year
+
+output:
+
+one year from the United States and all territory subject to the Constitution by the Congress.
 
 ## how to use it
 
